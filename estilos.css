@@ -134,7 +134,7 @@ main {
 }
 
 body {
-    background-image: url(/Imgs/fondo5.png);
+    background-image: url(./Imgs/fondo5.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
