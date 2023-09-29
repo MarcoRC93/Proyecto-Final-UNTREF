@@ -1,0 +1,322 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/** haeader **/
+header{
+    background-color: #CEB07F;
+}
+.navar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.telefonos {
+    display: flex;
+    padding: 5px;
+}
+.navar{
+    width: 100%;
+    color:#4C3525 ;
+    font-family: 'Arvo', serif;
+    margin-bottom: 0;
+}
+
+
+/** barra con logo **/
+
+main{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arvo', serif;
+}
+.div-lista{
+    width: 100%;
+    margin: 0; /* Elimina el margen vertical del ul */
+    padding: 0; /* Elimina cualquier relleno en el ul */
+    list-style: none; /* Quita los puntos de la lista si los hubiera */
+}
+
+.ulopciones {
+    background-color: #4C3525;
+    list-style: none;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-decoration: none !important;
+}
+.ulopciones li{
+    padding:1rem;
+    color: #CEB07F;
+}
+.logo{
+    width: 9.375rem;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+
+
+/** CARRUSEEEEEEEEEEEEEEL **/
+
+#carouselExampleCaptions {
+    width: 100%; /* Cambia el ancho según tus necesidades */
+    height: 600px; /* Establece una altura fija para el carrusel */
+    overflow: hidden; /* Oculta el contenido que desborda la altura fija */
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.carousel-indicators {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.carousel-item img {
+    height: 40%; /* Ocupa toda la altura del contenedor */
+    object-fit: cover; /* Ajusta la forma en que la imagen se ajusta al tamaño definido */
+    width: 100%; /* Ocupar todo el ancho de la página */
+}
+.carousel-item p {
+    margin-bottom: 20px; /* Agrega un margen inferior para separar los párrafos */
+    color: white; /* Cambia el color del texto para que sea visible en las imágenes */
+    position: absolute; /* Permite superponer el texto en la imagen */
+    bottom: 0; /* Coloca el texto en la parte inferior de la diapositiva */
+    left: 0; /* Alinea el texto a la izquierda */
+    right: 0; /* Alinea el texto a la derecha */
+    padding: 10px; /* Agrega un relleno alrededor del texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Agrega un fondo semi-transparente para que el texto sea legible */
+}
+
+/** pedinos **/
+
+.pedinos {
+    background-color: #4C3525;
+    text-align: center;
+    color: #CEB07F;
+    width: 100%;
+    justify-content: center;
+}
+.pedinos-text{
+    font-size: 35px;
+    padding-top: 5px;
+}
+
+
+/** todo lo de abajo **/
+
+body{
+    width: 100%;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+}
+main {
+    margin-top: 0; /* Elimina el margen superior del contenido principal */
+    padding-top: 0; /* Elimina el relleno superior del contenido principal */
+}
+
+body {
+    background-image: url(/Imgs/fondo5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#card-conteiner1{
+    display: flex;
+    float: left;
+    width: calc(56% - 10px);
+    padding: 15px;
+}
+#card-conteiner2{
+    display: flex;
+    float: left;
+    width: calc(56% - 10px);
+    padding: 15px;
+}
+.card{
+    background-color: transparent;
+    color: #CEB07F;
+    border: none;
+    font-family: 'Arvo', serif;
+}
+.card-header{
+    border: none;
+}
+.card-body{
+    text-align: center;
+}
+.card-img-top{
+    border-radius: 5px;
+}
+.card-footer{
+    display: flex;
+    justify-content: center;
+}
+
+/** video y foto palabras **/
+.conteinerVideo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteinerVideo video {
+    width: 40%; /* Ajusta el video al ancho del contenedor */
+    height: auto; /* Ajusta la altura automáticamente */
+    padding-top: 22px;
+}
+
+/** pedidos **/
+
+.seccion-contacto{
+    background-color: #CEB07F;
+    color: #4C3525;
+    text-align: center;
+    width: 100%;
+    font-family: 'Arvo', serif;
+    align-items: center;
+}
+.seccion-contacto p {
+    font-size: 40px;
+    padding-top: 15px;
+}
+
+/** boton nuevo **/
+
+:root {
+    --bg: #1a1e24;
+    --color: #eee;
+    font-family: 'Arvo', serif;
+}
+
+.wrapper {
+    padding: 1.5rem 0;
+    -webkit-filter: url('#goo');
+            filter: url('#goo');
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    background-color: #4C3525;
+    color:#CEB07F;
+    font-weight: bold;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 1.25rem;
+}
+/* Botón en estado "hover" (cuando pasas el mouse por encima) */
+.button:hover {
+    color:#CEB07F
+}
+
+.button:before,
+.button:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: var(--color);
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform 1s ease;
+    transition: -webkit-transform 1s ease;
+    transition: transform 1s ease;
+    transition: transform 1s ease, -webkit-transform 1s ease;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    z-index: -1;
+    background-color: #4C3525;
+}
+
+.button:before {
+    top: -25%;
+    left: 20%;
+}
+
+.button:after {
+    bottom: -25%;
+    right: 20%;
+}
+
+.button:hover:before,
+.button:hover:after {
+    -webkit-transform: none;
+            transform: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** footer **/
+footer {
+    width: 100%;
+    background-color: #4C3525;
+    color: #CEB07F;
+    font-family: 'Arvo', serif;
+}
+.iconos-redes i {
+    margin-right: 10px; /* Agrega margen a la derecha del icono de Facebook */
+}
+
+.div-datos{
+    margin-top: -5px!important;
+    margin-left: 30px!important;
+}
+.conteiner-div{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.div-linea{
+    text-align: center;
+}
+.div-derechos{
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    border-top: 1px solid #CEB07F !important;
+    line-height: 16px;
+    padding: 10px 5px;
+    margin: 0;
+    opacity: .8;
+}
+.p-logo{
+    vertical-align: middle;
+    border-right: 1px solid #CEB07F !important;
+    padding: 20px 40px 20px 40px;
+}
+.iconos-redes a {
+    text-decoration: none; /* Elimina la decoración de subrayado */
+    color: #CEB07F; /* Establece el color de los enlaces no visitados (azul de Facebook) */
+}
