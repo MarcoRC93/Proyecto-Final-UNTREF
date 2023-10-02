@@ -1,0 +1,47 @@
+{
+
+"picadas": [
+{
+    "id": 1,
+    "nombre": "Toscana",
+    "precio": "$3000",
+    "imagen": "./Imgs/tabla1.jpg",
+    "descripcion": "JAMON COCIDO, JAMON CRUDO, SALAME, CANTIMPALO, QUESO TUBO, QUESO AZUL, QUESO SARDO, QUESO FONTINA, OLIVAS VERDES Y NEGRAS, FRUTOS SECOS Y DIP A ELECCION + TOSTADAS CASERAS"
+},
+{
+    "id": 2,
+    "nombre": "Venecia",
+    "precio": "$3000",
+    "imagen": "./Imgs/tabla2.jpg",
+    "descripcion": "JAMON COCIDO, SALAME, BONDIOLA, MORTADELA, QUESO SABORIZADO, QUESO HOLANDA, QUESO PATEGRAS, OLIVAS VERDES Y NEGRAS, DIP A ELECCION + TOSTADAS CASERAS"
+},
+{
+    "id": 3,
+    "nombre": "Catania",
+    "precio": "$3000",
+    "imagen": "./Imgs/tabla3.jpg",
+    "descripcion": "QUESO HOLANDA, QUESO AZUL, QUESO AHUMADO, QUESO SARDO, LOMO DE CERDO CURADO, JAMON CRUDO, SALAME, CANTIMPALO AHUMADO, OLIVAS VERDES Y NEGRAS, FRUTOS SECOS Y DIP A ELECCION + TOSTADAS CASERASS"
+},
+{
+    "id": 4,
+    "nombre": "Milano",
+    "precio": "$3000",
+    "imagen": "./Imgs/tabla4.jpg",
+    "descripcion": "QUESO SARDO, QUESO PATEGRAS, QUESO AZUL, QUESO SABORIZADO, LOMO DE CERDO AHUMADO A LAS FINAS HIERBAS, BONDIOLA, SALAME, MORTADELA, CIRUELAS, OLIVAS VERDES Y NEGRAS, FRUTOS SECOS Y DIPS A ELECCION + TOSTADAS CASERAS"
+},
+{
+    "id": 5,
+    "nombre": "Solo quesos",
+    "precio": "$3000",
+    "imagen": "./Imgs/solquesos.png",
+    "descripcion": "QUESO HOLANDA, QUESO AZUL, QUESO SARDO, QUESO PATEGRAS, QUESO FONTINA, QUESO TYBO, QUESO SABORIZADO, OLIVAS VERDES Y NEGRAS, FRUTOS SECOS, CIRUELAS Y DIP A ELECCION + TOSTADAS"
+},
+{
+    "id": 6,
+    "nombre": "Regalos empresariales",
+    "precio": "$3000",
+    "imagen": "./Imgs/regaloempresarial1.png",
+    "descripcion": "MALBEC FAMILIA GASCON, COPA, BONDIOLA CERRADA AL VACIO, QUESO SABORIZADO AL VACIO, FONTINA AL VACIO, SALAME AL VACIO, FRASCO DE CONSERVA"
+}  
+]
+}

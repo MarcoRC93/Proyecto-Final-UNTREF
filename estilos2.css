@@ -3,8 +3,21 @@
     padding: 0;
     margin: 0;
 }
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(./Imgs/fondo5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#granContenedor{
+    width: auto;
+    height: 100%;
+}
 
 /** haeader **/
+
 header{
     background-color: #CEB07F;
 }
@@ -67,44 +80,6 @@ a{
     text-decoration: none;
 }
 
-
-/** CARRUSEEEEEEEEEEEEEEL **/
-
-#carouselExampleCaptions {
-    width: 100%; /* Cambia el ancho según tus necesidades */
-    height: 600px; /* Establece una altura fija para el carrusel */
-    overflow: hidden; /* Oculta el contenido que desborda la altura fija */
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-.carousel-indicators {
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-.carousel-control-prev,
-.carousel-control-next {
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.carousel-item img {
-    height: 40%; /* Ocupa toda la altura del contenedor */
-    object-fit: cover; /* Ajusta la forma en que la imagen se ajusta al tamaño definido */
-    width: 100%; /* Ocupar todo el ancho de la página */
-}
-.carousel-item p {
-    margin-bottom: 20px; /* Agrega un margen inferior para separar los párrafos */
-    color: white; /* Cambia el color del texto para que sea visible en las imágenes */
-    position: absolute; /* Permite superponer el texto en la imagen */
-    bottom: 0; /* Coloca el texto en la parte inferior de la diapositiva */
-    left: 0; /* Alinea el texto a la izquierda */
-    right: 0; /* Alinea el texto a la derecha */
-    padding: 10px; /* Agrega un relleno alrededor del texto */
-    background-color: rgba(0, 0, 0, 0.5); /* Agrega un fondo semi-transparente para que el texto sea legible */
-}
-
 /** pedinos **/
 
 .pedinos {
@@ -122,59 +97,25 @@ a{
 
 /** todo lo de abajo **/
 
-body{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-image: url(./Imgs/fondo5.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#granContenedor {
-width: 50.375rem;
-padding-top: 5px;
-display: flex;
-flex-direction: column;
-}
-
-#granContenedor > div:nth-child(1) > img {
-    width: 10%;
-    height: 10%;
-}
-#granContenedor > div:nth-child(2) > img {
-    width: 10%;
-    height: 10%;
-}
-#granContenedor > div:nth-child(3) > img {
-    width: 10%;
-    height: 10%;
-}
-#granContenedor > div:nth-child(4) > img {
-    width: 10%;
-    height: 10%;
-}
-#granContenedor > div:nth-child(5) > img {
-    width: 10%;
-    height: 10%;
-}
-#granContenedor > div:nth-child(6) > img {
-    width: 10%;
-    height: 10%;
-}
 main {
     margin-top: 0; /* Elimina el margen superior del contenido principal */
     padding-top: 0; /* Elimina el relleno superior del contenido principal */
 }
 
 /** css cript **/
-#granContenedor {
-    width: 100%;
-    height: 100%;
 
-
+#detalleTablas > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 10px;
 }
-
-
+#detalleTablas > div > button.atras {
+    
+}
 
 
 
