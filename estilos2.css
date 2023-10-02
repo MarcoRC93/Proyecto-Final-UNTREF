@@ -113,11 +113,14 @@ main {
     color: white;
     padding-bottom: 10px;
 }
-#detalleTablas > div > button.atras {
-    
+#detalleTablas > div > img {
+    width: 20%;
+    height: 20%;
+    border: #CEB07F solid;
 }
-
-
+#detalleTablas > div > div.descripcion > p {
+    color: #CEB07F;
+}
 
 
 
