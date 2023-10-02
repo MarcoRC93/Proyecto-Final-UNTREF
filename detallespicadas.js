@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             </div>
             `;
-
+            
             detalleTablas.appendChild(contenedorDetallesPicada);
 
             const botonAtras = contenedorDetallesPicada.querySelector(".atras");
