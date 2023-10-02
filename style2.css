@@ -25,11 +25,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: .3125rem;
 }
 .telefonos {
     display: flex;
-    padding: 5px;
+    padding: .3125rem;
 }
 .navar{
     width: 100%;
@@ -51,9 +51,9 @@ main{
 }
 .div-lista{
     width: 100%;
-    margin: 0; /* Elimina el margen vertical del ul */
-    padding: 0; /* Elimina cualquier relleno en el ul */
-    list-style: none; /* Quita los puntos de la lista si los hubiera */
+    margin: 0; 
+    padding: 0;
+    list-style: none; 
 }
 
 .ulopciones {
@@ -90,16 +90,16 @@ a{
     justify-content: center;
 }
 .pedinos-text{
-    font-size: 35px;
-    padding-top: 5px;
+    font-size: 2.1875rem;
+    padding-top: .3125rem;
 }
 
 
 /** todo lo de abajo **/
 
 main {
-    margin-top: 0; /* Elimina el margen superior del contenido principal */
-    padding-top: 0; /* Elimina el relleno superior del contenido principal */
+    margin-top: 0; 
+    padding-top: 0; 
 }
 
 /** css cript **/
@@ -109,20 +109,56 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 10px;
-    color: white;
-    padding-bottom: 10px;
+    padding-top: .625rem;
+    color: #CEB07F;
+    padding-bottom: 1.25rem;
 }
 #detalleTablas > div > img {
     width: 20%;
     height: 20%;
     border: #CEB07F solid;
 }
-#detalleTablas > div > div.descripcion > p {
-    color: #CEB07F;
+#detalleTablas > div > div.descripcion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: .625rem;
+}
+#detalleTablas > div > h2 {
+    padding-top: .625rem;
 }
 
+#detalleTablas > div > div.descripcion > p {
+    color: #CEB07F;
+    width: 40%;
+    text-align: center;
+}
 
+#detalleTablas > div > div.botones > button.atras {
+    background-color: #CEB07F;
+    color: #4C3525;
+    border: none;
+    border-radius: .3125rem;
+    padding: .3125rem;
+    margin: .125rem;
+}
+
+#detalleTablas > div > div.botones > button.comprar {
+    background-color: #CEB07F;
+    color: #4C3525;
+    border: none;
+    border-radius: .3125rem;
+    padding: .3125rem;
+    margin: .125rem;
+}
+#detalleTablas > div > div.botones > button.ver-mas {
+    background-color: #CEB07F;
+    color: #4C3525;
+    border: none;
+    border-radius: .3125rem;
+    padding: .3125rem;
+    margin: .125rem;
+}
 
 
 
@@ -138,9 +174,9 @@ main {
     align-items: center;
 }
 .conteinerVideo video {
-    width: 40%; /* Ajusta el video al ancho del contenedor */
-    height: auto; /* Ajusta la altura automáticamente */
-    padding-top: 22px;
+    width: 40%; 
+    height: auto; 
+    padding-top: 1.375rem;
 }
 
 /** pedidos **/
@@ -154,8 +190,8 @@ main {
     align-items: center;
 }
 .seccion-contacto p {
-    font-size: 40px;
-    padding-top: 15px;
+    font-size: 2.5rem;
+    padding-top: .9375rem;
 }
 
 /** boton nuevo **/
@@ -247,37 +283,37 @@ footer {
     font-family: 'Arvo', serif;
 }
 .iconos-redes i {
-    margin-right: 10px; /* Agrega margen a la derecha del icono de Facebook */
+    margin-right: .625rem;
 }
 
 .div-datos{
-    margin-top: -5px!important;
-    margin-left: 30px!important;
+    margin-top: -0.3125rem!important;
+    margin-left: 1.875rem!important;
 }
 .conteiner-div{
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 .div-linea{
     text-align: center;
 }
 .div-derechos{
     text-align: center;
-    font-size: 11px;
-    letter-spacing: 1.5px;
-    border-top: 1px solid #CEB07F !important;
-    line-height: 16px;
-    padding: 10px 5px;
+    font-size: .6875rem;
+    letter-spacing: .0938rem;
+    border-top: .0625rem solid #CEB07F !important;
+    line-height: 1rem;
+    padding: .625rem .3125rem;
     margin: 0;
     opacity: .8;
 }
 .p-logo{
     vertical-align: middle;
-    border-right: 1px solid #CEB07F !important;
-    padding: 20px 40px 20px 40px;
+    border-right: .0625rem solid #CEB07F !important;
+    padding: 1.25rem 2.5rem 1.25rem 2.5rem;
 }
 .iconos-redes a {
-    text-decoration: none; /* Elimina la decoración de subrayado */
-    color: #CEB07F; /* Establece el color de los enlaces no visitados (azul de Facebook) */
+    text-decoration: none; 
+    color: #CEB07F;
 }

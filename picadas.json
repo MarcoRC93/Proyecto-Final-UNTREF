@@ -6,7 +6,7 @@
     "nombre": "Toscana",
     "precio": "$3000",
     "imagen": "./Imgs/tabla1.jpg",
-    "descripcion": "JAMÓN COCIDO, JAMON CRUDO, SALAME, CANTIMPALO, QUESO TYBO, QUESO AZUL, QUESO SARDO, QUESO FONTINA, OLIVAS VERDES Y NEGRAS, FRUTOS SECOS Y DIP A ELECCIÓN + TOSTADAS CASERAS"
+    "descripcion": "JAMÓN COCIDO, JAMÓN CRUDO, SALAME, CANTIMPALO, QUESO TYBO, QUESO AZUL, QUESO SARDO, QUESO FONTINA, OLIVAS VERDES Y NEGRAS, FRUTOS SECOS Y DIP A ELECCIÓN + TOSTADAS CASERAS"
 },
 {
     "id": 2,
@@ -38,7 +38,7 @@
 },
 {
     "id": 6,
-    "nombre": "Regalos empresariales",
+    "nombre": "Regalos",
     "precio": "$3000",
     "imagen": "./Imgs/regaloempresarial1.png",
     "descripcion": "MALBEC FAMILIA GASCÓN, BONDIOLA CERRADA AL VACÍO, QUESO SABORIZADO AL VACÍO, FONTINA AL VACÍO, SALAME AL VACÍO, FRASCO DE CONSERVA"

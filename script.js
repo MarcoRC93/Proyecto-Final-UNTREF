@@ -8,15 +8,21 @@ fetch("./picadas.json")
     console.log(datosPicadas);
 
     if (datosPicadas) {
-      datosPicadas.picadas.forEach((picadas) => {
+      // Crear el primer contenedor principal
+      const contenedorPrincipal1 = document.createElement("div");
+      contenedorPrincipal1.classList.add("contenedorPrincipal");
+
+      // Crear el segundo contenedor principal
+      const contenedorPrincipal2 = document.createElement("div");
+      contenedorPrincipal2.classList.add("contenedorPrincipal");
+
+      datosPicadas.picadas.forEach((picadas, index) => {
         const divItem = document.createElement("div");
         divItem.classList.add("div-item");
         divItem.innerHTML = `
           <img src="${picadas.imagen}" alt="${picadas.nombre}">
           <h3>${picadas.nombre}</h3>
-          <h6>${picadas.marca}</h6>
           <h5>Precio: ${picadas.precio}</h5>
-          <p>${picadas.cuotas}</p>
           <button class="ver-mas">Ver Más</button>
           <button class="agregar-carrito">Agregar al carrito</button>`;
 
@@ -24,12 +30,26 @@ fetch("./picadas.json")
           mostrarDetallesPicadas(picadas);
         });
 
-        divPicadas.appendChild(divItem);
+        // Agregar elementos a los contenedores según la lógica deseada
+        if (index < 3) {
+          // Los primeros 3 elementos se agregan al primer contenedor principal
+          contenedorPrincipal1.appendChild(divItem);
+        } else if (index < 6) {
+          // Los siguientes 3 elementos se agregan al segundo contenedor principal
+          contenedorPrincipal2.appendChild(divItem);
+        } else {
+          // Los elementos restantes se pueden manejar de acuerdo a tus necesidades
+          // Puedes crear más contenedores o ajustar la lógica según tus requerimientos.
+        }
       });
+
+      // Agregar los contenedores principales al granContenedor
+      divPicadas.appendChild(contenedorPrincipal1);
+      divPicadas.appendChild(contenedorPrincipal2);
     }
   });
 
 function mostrarDetallesPicadas(picadas) {
-  // Here, you should redirect to the details page with the correct picada ID.
+  // Aquí, deberías redirigir a la página de detalles con el ID correcto de la picada.
   location.href = `./index2.html?id=${picadas.id}`;
 }

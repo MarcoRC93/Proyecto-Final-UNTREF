@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
 }
-
 /** haeader **/
 header{
     background-color: #CEB07F;
@@ -12,11 +11,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 0.3125rem;
 }
 .telefonos {
     display: flex;
-    padding: 5px;
+    padding: 0.3125rem;
 }
 .navar{
     width: 100%;
@@ -38,15 +37,15 @@ main{
 }
 .div-lista{
     width: 100%;
-    margin: 0; /* Elimina el margen vertical del ul */
-    padding: 0; /* Elimina cualquier relleno en el ul */
-    list-style: none; /* Quita los puntos de la lista si los hubiera */
+    margin: 0; 
+    padding: 0;
+    list-style: none; 
 }
 
 .ulopciones {
     background-color: #4C3525;
     list-style: none;
-    width:100%;
+    width: 100%;
     display:flex;
     flex-direction: row;
     width: 100%;
@@ -71,9 +70,9 @@ a{
 /** CARRUSEEEEEEEEEEEEEEL **/
 
 #carouselExampleCaptions {
-    width: 100%; /* Cambia el ancho según tus necesidades */
-    height: 600px; /* Establece una altura fija para el carrusel */
-    overflow: hidden; /* Oculta el contenido que desborda la altura fija */
+    width: 100%; 
+    height: 37.5rem; 
+    overflow: hidden; 
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -90,19 +89,19 @@ a{
 }
 
 .carousel-item img {
-    height: 40%; /* Ocupa toda la altura del contenedor */
-    object-fit: cover; /* Ajusta la forma en que la imagen se ajusta al tamaño definido */
-    width: 100%; /* Ocupar todo el ancho de la página */
+    height: 40%; 
+    object-fit: cover; 
+    width: 100%;
 }
 .carousel-item p {
-    margin-bottom: 20px; /* Agrega un margen inferior para separar los párrafos */
-    color: white; /* Cambia el color del texto para que sea visible en las imágenes */
-    position: absolute; /* Permite superponer el texto en la imagen */
-    bottom: 0; /* Coloca el texto en la parte inferior de la diapositiva */
-    left: 0; /* Alinea el texto a la izquierda */
-    right: 0; /* Alinea el texto a la derecha */
-    padding: 10px; /* Agrega un relleno alrededor del texto */
-    background-color: rgba(0, 0, 0, 0.5); /* Agrega un fondo semi-transparente para que el texto sea legible */
+    margin-bottom: 1.25rem;
+    color: white; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    padding: 0.625rem; 
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 
 /** pedinos **/
@@ -115,8 +114,8 @@ a{
     justify-content: center;
 }
 .pedinos-text{
-    font-size: 35px;
-    padding-top: 5px;
+    font-size: 2.1875rem;
+    padding-top: 0.3125rem;
 }
 
 
@@ -130,48 +129,83 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+#contenedorGrande{
+    display:flex;
+}
+
 #granContenedor {
-width: 50.375rem;
-padding-top: 5px;
+padding-top: 0.3125rem;
 display: flex;
-flex-direction: column;
+flex-direction:column;
+width: 50%;
+height: 100%;
 }
 
-#granContenedor > div:nth-child(1) > img {
-    width: 10%;
-    height: 10%;
-}
-#granContenedor > div:nth-child(2) > img {
-    width: 10%;
-    height: 10%;
-}
-#granContenedor > div:nth-child(3) > img {
-    width: 10%;
-    height: 10%;
-}
-#granContenedor > div:nth-child(4) > img {
-    width: 10%;
-    height: 10%;
-}
-#granContenedor > div:nth-child(5) > img {
-    width: 10%;
-    height: 10%;
-}
-#granContenedor > div:nth-child(6) > img {
-    width: 10%;
-    height: 10%;
-}
-main {
-    margin-top: 0; /* Elimina el margen superior del contenido principal */
-    padding-top: 0; /* Elimina el relleno superior del contenido principal */
+#conteinerVideo video {
+    width: 50%; 
+    height: auto; 
 }
 
-/** css cript **/
-#granContenedor {
+/** flexing 1 **/
+#granContenedor > div:nth-child(1){
+    display: flex;
     width: 100%;
     height: 100%;
+    padding: .9375rem;
+}
+#granContenedor > div:nth-child(1) > * > img {
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
+#granContenedor > div:nth-child(1) > * > h3{
+    color: #CEB07F;
+}
+#granContenedor > div:nth-child(1) > * > h5{
+    color: #CEB07F;
+}
+#granContenedor > * > * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
 
+/** flexing 2 **/
+#granContenedor > div:nth-child(2){
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: .9375rem;
+}
+#granContenedor > div:nth-child(2) > * > img {
+    width: 80%;
+    height: 80%;
+}
+#granContenedor > div:nth-child(2) > * > h3{
+    color: #CEB07F;
+}
+#granContenedor > div:nth-child(2) > * > h5{
+    color: #CEB07F;
+}
+
+#granContenedor > * > * > button.ver-mas{
+    background-color: #CEB07F;
+    color: #4C3525;
+    border: none;
+    border-radius: .3125rem;
+    padding: .3125rem;
+    margin: .125rem;
+}
+#granContenedor > * > * > button.agregar-carrito {
+    background-color: #CEB07F;
+    color: #4C3525;
+    border: none;
+    border-radius: .3125rem;
+    padding: .3125rem;
+    margin: .125rem;
 }
 
 
@@ -186,18 +220,53 @@ main {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** ----------- **/ 
+main {
+    margin-top: 0; 
+    padding-top: 0; 
+}
 
 /** video y foto palabras **/
 .conteinerVideo {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 1.375rem;
 }
-.conteinerVideo video {
-    width: 40%; /* Ajusta el video al ancho del contenedor */
-    height: auto; /* Ajusta la altura automáticamente */
-    padding-top: 22px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** pedidos **/
 
@@ -210,8 +279,8 @@ main {
     align-items: center;
 }
 .seccion-contacto p {
-    font-size: 40px;
-    padding-top: 15px;
+    font-size: 2.5rem;
+    padding-top: 0.9375rem;
 }
 
 /** boton nuevo **/
@@ -243,6 +312,7 @@ main {
     font-family: var(--font);
     font-size: 1.25rem;
 }
+
 /* Botón en estado "hover" (cuando pasas el mouse por encima) */
 .button:hover {
     color:#CEB07F
@@ -303,37 +373,37 @@ footer {
     font-family: 'Arvo', serif;
 }
 .iconos-redes i {
-    margin-right: 10px; /* Agrega margen a la derecha del icono de Facebook */
+    margin-right: 0.625rem;
 }
 
 .div-datos{
-    margin-top: -5px!important;
-    margin-left: 30px!important;
+    margin-top: -0.3125rem!important;
+    margin-left: 1.875rem!important;
 }
 .conteiner-div{
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 .div-linea{
     text-align: center;
 }
 .div-derechos{
     text-align: center;
-    font-size: 11px;
-    letter-spacing: 1.5px;
-    border-top: 1px solid #CEB07F !important;
-    line-height: 16px;
-    padding: 10px 5px;
+    font-size: .6875rem;
+    letter-spacing: .0938rem;
+    border-top: .0625rem solid #CEB07F !important;
+    line-height: 1rem;
+    padding: 0.625rem 0.3125rem;
     margin: 0;
     opacity: .8;
 }
 .p-logo{
     vertical-align: middle;
-    border-right: 1px solid #CEB07F !important;
-    padding: 20px 40px 20px 40px;
+    border-right: .0625rem solid #CEB07F !important;
+    padding: 1.25rem 2.5rem 1.25rem 2.5rem;
 }
 .iconos-redes a {
-    text-decoration: none; /* Elimina la decoración de subrayado */
-    color: #CEB07F; /* Establece el color de los enlaces no visitados (azul de Facebook) */
+    text-decoration: none; 
+    color: #CEB07F;
 }

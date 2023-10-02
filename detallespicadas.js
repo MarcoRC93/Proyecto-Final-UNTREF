@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <button class="atras">Volver atrás</button>
                 <button class="comprar">Comprar</button>
                 <button class="ver-mas">Agregar al carrito</button>
+
             </div>
             `;
 
