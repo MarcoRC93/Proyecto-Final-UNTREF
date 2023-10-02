@@ -296,3 +296,67 @@ footer {
   text-decoration: none;
   color: #ceb07f;
 }
+/* Estilos generales que se aplicarán a todas las pantallas */
+/* Por ejemplo, para el encabezado */
+.navar {
+  text-align: center;
+  background-color: #ceb07f;
+}
+#carouselExampleCaptions > button.carousel-control-prev {
+  display: none;
+}
+#carouselExampleCaptions > button.carousel-control-next > span.carousel-control-next-icon{
+  display: none;
+}
+#carouselExampleCaptions > div.carousel-indicators {
+  display: none;
+}
+.ulopciones{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* Media query para pantallas más pequeñas, como tablets */
+@media (max-width: 992px) {
+}
+.conteinerVideo {
+  display: none;
+}
+  .navar {
+    text-align: center;
+    background-color: #ceb07f;
+  }
+  #carouselExampleCaptions > button.carousel-control-prev {
+    display: none;
+}
+  #carouselExampleCaptions > button.carousel-control-next > span.carousel-control-next-icon{
+    display: none;
+}
+#carouselExampleCaptions > div.carousel-indicators {
+  display: none;
+}
+body > footer > div.conteiner-div > div.div-datos {
+  display: flex;
+  flex-direction: column;
+  font-size: .8125rem;
+}
+
+
+/* Media query para pantallas más pequeñas, como teléfonos móviles */
+@media (max-width: 768px) {
+  .navar {
+    text-align: center;
+    background-color: #ceb07f;
+  }
+  #carouselExampleCaptions > div.carousel-indicators {
+    display: none;
+  }
+  #carouselExampleCaptions > button.carousel-control-prev {
+    display: none;
+}
+  #carouselExampleCaptions > button.carousel-control-next > span.carousel-control-next-icon{
+    display: none;
+}
+}
