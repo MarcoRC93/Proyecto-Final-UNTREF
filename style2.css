@@ -311,11 +311,6 @@ footer {
 #carouselExampleCaptions > div.carousel-indicators {
   display: none;
 }
-.ulopciones{
-  display: flex;
-  flex-direction: column;
-}
-
 
 
 /* Media query para pantallas más pequeñas, como tablets */
@@ -358,5 +353,9 @@ body > footer > div.conteiner-div > div.div-datos {
 }
   #carouselExampleCaptions > button.carousel-control-next > span.carousel-control-next-icon{
     display: none;
+}
+.ulopciones{
+  display: flex;
+  flex-direction: column;
 }
 }

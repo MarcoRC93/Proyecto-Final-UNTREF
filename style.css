@@ -371,9 +371,6 @@ body > footer > div.conteiner-div > div.div-datos {
 /* Media query para pantallas más pequeñas, como tablets */
 @media (max-width: 992px) {
 }
-.conteinerVideo {
-  display: none;
-}
   .navar {
     text-align: center;
     background-color: #ceb07f;
@@ -394,8 +391,13 @@ body > footer > div.conteiner-div > div.div-datos {
 }
 
 
+
+
 /* Media query para pantallas más pequeñas, como teléfonos móviles */
 @media (max-width: 768px) {
+  .conteinerVideo {
+    display: none;
+  }
   .navar {
     text-align: center;
     background-color: #ceb07f;
@@ -413,6 +415,12 @@ body > footer > div.conteiner-div > div.div-datos {
   display: flex;
   flex-direction: column;
   font-size: .8125rem;
+}
+body > main > div.div-lista > ul > a:nth-child(4) > li{
+  display: none;
+}
+body > main > div.div-lista > ul > a:nth-child(2) > li{
+  display: none;
 }
 }
 
