@@ -345,7 +345,7 @@ footer {
   color: #ceb07f;
 }
 
-
+/** mediaqueryes **/
 
 /* Estilos para tablet (768px) */
 @media (max-width: 768px) {
@@ -393,7 +393,7 @@ footer {
     }
   }
   @media (min-widtg: 2400px) {
-    html{
+    html {
       font-size: 24px;
     }
   }
